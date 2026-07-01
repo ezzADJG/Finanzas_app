@@ -24,7 +24,7 @@ on:
 
 env:
   AZURE_WEBAPP_NAME: SmartGoal14    # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: 'https://smartgoal14-f3g3fudfbmf2azat.chilecentral-01.azurewebsites.net'      # set this to the path to your web app project, defaults to the repository root
+  AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '24'                # set this to the node version to use
 
 permissions:
